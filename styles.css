@@ -20,6 +20,8 @@ body{
   height: 50px;
   font-size: 18px;
   padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .collection-card-label-text:link{
@@ -31,7 +33,7 @@ body{
   text-decoration: underline;
 }
 
-.collection-card-label-text:hover{
+.collection-card-label-text:visited{
   color: black;
 }
 
