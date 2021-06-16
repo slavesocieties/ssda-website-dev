@@ -58,6 +58,10 @@ body{
   background-color: green;
   padding-left: 10px;
   padding-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
 }
 
 .volume-card-label-text:link{
