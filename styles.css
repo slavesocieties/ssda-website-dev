@@ -1,4 +1,42 @@
-img {
-  width: 165px;
-  height: 120px;
+body{
+  font-family: 'Source Sans Pro';
+}
+
+.card-wrapper{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  column-gap: 15px;
+  row-gap: 15px;
+}
+
+.collection-card{
+  height: 300px;
+  border-style: solid;
+  cursor: pointer;
+}
+
+.collection-card-label{
+  text-align: center;
+  height: 50px;
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.collection-card-label-text:link{
+  color:black;
+  text-decoration: none;
+}
+
+.collection-card-label-text:hover{
+  text-decoration: underline;
+}
+
+.collection-card-img{
+  display: block;
+  margin: auto;
+  object-fit: contain;
+  width: 75%;
+  height: 200px;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
 }
