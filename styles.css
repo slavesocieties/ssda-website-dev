@@ -45,3 +45,28 @@ body{
   height: 200px;
   padding-top: 2.5%;
 }
+
+.volume-card{
+  height: 300px;
+  border-style: solid;
+  cursor: pointer;
+}
+
+.volume-card-label{
+  text-align: center;
+  font-size: 18px;
+  background-color: green;
+}
+
+.volume-card-label-text:link{
+  color:black;
+  text-decoration: none;
+}
+
+.volume-card-label-text:hover{
+  text-decoration: underline;
+}
+
+.volume-card-label-text:visited{
+  color: black;
+}
