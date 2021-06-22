@@ -43,7 +43,7 @@ body{
   object-fit: contain;
   width: 75%;
   height: 200px;
-  padding-top: 2.5%;
+  padding-top: 4%;
 }
 
 .volume-card{
@@ -54,7 +54,7 @@ body{
 
 .volume-card-label{
   text-align: center;
-  font-size: 18px;  
+  font-size: 18px;
   padding-left: 10px;
   padding-right: 10px;
   position: relative;
